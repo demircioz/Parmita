@@ -1,13 +1,19 @@
 # Project: 🧑‍🍳 Responsive Recipe Website – Recipe Website Part
 
-By: Canpolat Demirci-Ozmen, Lakshman Muralitharan, Luka Plouvier
+By: Canpolat DEMIRCI-OZMEN, Lakshman MURALITHARAN, Luka PLOUVIER
 (For this part of the project)
 
 > https://dwarves.iut-fbleau.fr/~demircio/Projet-IHM_SiteRecettes/
 
 # Group of 6:
 
-Canpolat Demirci-Ozmen, Lakshman Muralitharan, Luka Plouvier, Maxime ELIOTT, Rayan BISSON, Jimmy COLOMB-RAVAT
+* Canpolat DEMIRCI-OZMEN
+* Lakshman MURALITHARAN
+* Luka PLOUVIER
+
+* Maxime ELIOT
+* Rayan BISSON
+* Jimmy COLOMB-RAVAT
 
 ---
 
