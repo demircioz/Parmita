@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test header</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Si header.html est dans /html/ et css dans /css/ -->
+  <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="logo" href="../index.html" aria-label="Accueil Mimica">
+        <img src="../media/logo.svg" alt="Mimica — logo">
+      </a>
+
+      <!-- Checkbox hack pour le menu mobile (pas de JS) -->
+      <input id="nav-toggle" t ype="checkbox" class="visually-hidden">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <!-- Navigation principale -->
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="../html/nouveautés.html">🔥 Nouveautés</a></li>
+          <li class="nav-item"><a href="../html/produits.html">🌱 Vegan</a></li>
+          <li class="nav-item"><a href="../html/regilmesportif.html">🏀 Régime Sportif</a></li>
+          <li class="nav-item"><a href="../html/parmitapremium.html">➕ ParmitaPremium</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Le reste de la page... -->
+</body>
+</html>

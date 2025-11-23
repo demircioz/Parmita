@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Parmita — Recettes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="Accueil Parmita">
+        <img src="media/logo.png" alt="Parmita — logo">
+      </a>
+
+      <input id="nav-toggle" type="checkbox" class="visually-hidden">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="html/nouveautes.html">🔥 Nouveautés</a></li>
+          <li class="nav-item"><a href="html/produits.html">🌱 Vegan</a></li>
+          <li class="nav-item"><a href="html/regime-sportif.html">🏀 Régime Sportif</a></li>
+          <li class="nav-item"><a href="html/parmitapremium.html">➕ ParmitaPremium</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="search-filters">
+    <div class="inner">
+      <input class="search-input" type="search" placeholder="🔍  Rechercher une recette ou un ingrédient..." aria-label="Recherche">
+      <div class="filter-group">
+        <button class="chip">Sucré</button>
+        <button class="chip">Salé</button>
+        <button class="filter-btn">Filtrer</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="listing">
+
+      <article class="card">
+        <div class="thumb"><img src="media/Mousse_au_Chocolat.jpg" alt="Mousse au chocolat"></div>
+        <div class="content">
+          <h3><a href="html/mousse.html">Mousse au chocolat</a></h3>
+          <div class="badges"><span class="badge">Dessert</span></div>
+          <p class="description">Une mousse au chocolat riche en goût, légère et aérienne, préparée uniquement avec du chocolat noir de qualité, des œufs frais et une pincée de sel. C’est un dessert incontournable qui séduit par sa simplicité et sa texture fondante. Idéal pour les amateurs de cacao intense qui veulent une touche sucrée après un repas copieux.</p>
+          <div class="meta">
+            <div class="time">⏱️ 30m</div>
+            <div class="stars">★★★★★</div>
+            <div class="servings"><em>Pour 4 personnes</em></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="thumb"><img src="media/Riz_cantonais.jpg" alt="Riz cantonais"></div>
+        <div class="content">
+          <h3><a href=css/riz.html">Riz cantonais</a></h3>
+          <div class="badges"><span class="badge">Plat rapide</span></div>
+          <p class="description">Un plat asiatique simple et savoureux : du riz sauté au wok avec des petits pois, des morceaux de jambon, des œufs brouillés et une touche de sauce soja. Il combine gourmandise et praticité, parfait pour un dîner en semaine ou pour réutiliser du riz déjà cuit. Ce plat coloré offre un bel équilibre entre protéines, légumes et féculents.</p>
+          <div class="meta">
+            <div class="time">⏱️ 25m</div>
+            <div class="stars">★★★★☆</div>
+            <div class="servings"><em>Pour 3 personnes</em></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="thumb"><img src="media/Burger.jpg" alt="Burger classique"></div>
+        <div class="content">
+          <h3><a href="html/burger.html">Burger classique</a></h3>
+          <div class="badges"><span class="badge">Classique</span></div>
+          <p class="description">Un burger maison généreux et savoureux : pain toasté légèrement croustillant, steak haché juteux, fromage cheddar fondant, salade fraîche, tomate et sauce maison. Ce grand classique revisité offre un équilibre parfait entre fondant et croquant. Facile à préparer, il saura séduire les amateurs de fast-food fait maison avec une qualité bien supérieure.</p>
+          <div class="meta">
+            <div class="time">⏱️ 20m</div>
+            <div class="stars">★★★★★</div>
+            <div class="servings"><em>Pour 2 personnes</em></div>
+          </div>
+        </div>
+      </article>
+
+      <div class="pagination" aria-hidden="true">
+        <button class="page-btn">«</button>
+        <button class="page-btn">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">»</button>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>À propos de Parmita</h4>
+          <p>Parmita crée, partage et célèbre des recettes accessibles pour tous. Astuces rapides, idées de menus et recettes testées pour la vie quotidienne.</p>
+          <p><em>- L'équipe Parmita</em></p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Restez connectés</h4>
+          <ul class="social-links">
+            <li><a class="social-icon" href="https://twitter.com/" aria-label="Twitter"><img src="media/icones/x.svg" alt="X"></a></li>
+            <li><a class="social-icon" href="https://www.instagram.com/" aria-label="Instagram"><img src="media/icones/instagram.svg" alt="Instagram"></a></li>
+            <li><a class="social-icon" href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="media/icones/linkedin.svg" alt="LinkedIn"></a></li>
+            <li><a class="social-icon" href="https://github.com/" aria-label="GitHub"><img src="media/icones/github.svg" alt="GitHub"></a></li>
+            <li><a class="social-icon" href="https://www.tiktok.com/" aria-label="TikTok"><img src="media/icones/tiktok.svg" alt="TikTok"></a></li>
+            <li><a class="social-icon" href="https://www.youtube.com/" aria-label="YouTube"><img src="media/icones/youtube.svg" alt="YouTube"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Coordonnées</h4>
+          <address class="contact">
+            <div><span class="icon">📍</span><span>12 Rue de la Gastronomie, 75001 Paris</span></div>
+            <div><span class="icon">📞</span><span>+33 1 23 45 67 89</span></div>
+            <div><span class="icon">✉️</span><span><a href="mailto:contact@parmita.com">contact@parmita.com</a></span></div>
+          </address>
+        </div>
+      </div>
+
+      <div class="newsletter-wrap">
+        <div class="newsletter newsletter--wide">
+          <h3>Recevez nos meilleures recettes</h3>
+          <p>Idées simples, menus rapides et astuces pratiques livrés chaque semaine.</p>
+          <form class="newsletter-form" novalidate>
+            <input type="email" name="email" placeholder="📧 Votre adresse e-mail" required aria-label="Adresse e-mail">
+            <button type="submit">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Parmita. Tous droits réservés | Projet Étudiant : Canpolat DEMIRCI--ÖZMEN, Lakshman MURALITHARAN, Luka PLOUVIER, Ryad MEHIRI, Rayan BISSON, Maxime ELIOTT, Yanis AMRANI</p>
+      <p><a href="../html/mentions-legales.html">Mentions légales</a> | <a href="../html/plan-du-site.html">Plan du site</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
